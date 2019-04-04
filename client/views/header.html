@@ -1,0 +1,37 @@
+<template name="header">
+
+  <header class="main-header">
+
+    <div class="container">
+
+      <ul>
+
+        <li>
+
+          <a href="https:helpthehomelessworldwide.org">
+                      
+            <img class="logo" src="/img/HTH-Logo.png" alt="Welcome to HTH World!!" /> Welcome to HTH World!! 
+         </a>
+
+        </li>
+ 
+       {{#if currentUser}}
+
+          <li class="u-pull-right sign-out">
+
+            <button data-id="sign-out"><i class="fa fa-sign-out fa-lg" style="color:#34bcaa">
+</i>
+</button>
+
+
+          </li>
+
+        {{/if}}
+
+      </ul>
+
+    </div>
+
+  </header>
+
+</template>
